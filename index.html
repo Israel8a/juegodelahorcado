@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="esp">
+    <head>
+        <meta charset="UTF-8">
+        <title>Juego Del Ahorcado</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="logo-alura">
+            <img src="Imagenes/Vector.png" alt="logo-alura">
+        </header>
+        <main>
+            <div id="botones-principales">
+                <h1 class="titulo">juego del ahorcado</h1>
+                <canvas class="mono"></canvas>
+                <button class="boton-iniciar" onclick="iniciarjuego()">Iniciar juego</button>
+                <button class="boton-agregar" onclick="ingresarPalabra()">Agregar nueva palabra</button>
+            </div>
+            <div id="iniciarjuego">
+                <canvas id="ahorcado" width="1000px" height="400px"></canvas>
+                <div class="botones-2">
+                <button class="boton-juegon"onclick="nuevojuego()">Nuevo Juego</button>
+                <button class="boton-desistir"onclick="desistir()">Desistir</button>
+                </div>
+            </div>
+            <div id ="agregarPalabra">
+                <textarea placeholder="INGRESE LA PALABRA AQUI.."id="Ing-palabra"cols="25"></textarea>
+                <span class="advertencia">&#9888;--Máx. de 10 letras y letra mayusculas.</span>
+                <div class="botones-ingresapa">
+                <button class="Guardar"onclick="guardarEmpezar()">Guardar y empezar</button>
+                <button class="Cancelar"onclick="Cancelar()">Cancelar</button>
+                </div>
+            </div>
+        </main>
+    </body>
+    <script src="Jscript.js"></script>
+</html>

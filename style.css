@@ -1,0 +1,116 @@
+body{
+    background: #F3F5FC;
+}
+.logo-alura{
+    margin-left: 60px;
+    display: inline;
+}
+.titulo{
+    color: #c79d1e;
+    text-shadow: 0 20px 25px #2e2e31, 0 40px 10px #2e2e31;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: -3px;
+    position: absolute;
+    top: 15%;
+    left: 45%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+main{
+    width: 700px;
+    height: 400px;
+}
+#botones-principales{
+    display: block;
+    margin-left: 80px;
+}
+.boton-iniciar{
+    width: 280px; 
+    height: 67px;
+    border-radius: 12px;
+    margin-left: 390px;
+    margin-top: 80px;
+    background: #0A3871;
+    display: inline-block;
+    cursor: pointer;
+}
+.boton-iniciar:hover{
+    transform: scale(1.2);
+}
+.boton-agregar{
+    width: 158px;
+    height: 57px;
+    margin-top: 20px;
+    margin-left: 450px;
+    border-radius: 10px;
+    background: #E5E5E5;
+    display: inline-block;
+    cursor: pointer;
+}
+.boton-agregar:hover{
+    transform: scale(1.2);
+}
+.mono{
+    width: 300px;
+    height: 250px;
+    margin-top: 50px;
+    margin-left: 950px;
+}
+#iniciarjuego{
+    display: none;
+    
+}
+#ahorcado{
+    margin:10px 0px 0px 250px;
+    
+}
+.botones-2{
+    display: inline-flex;  
+}
+.boton-juegon:hover{
+    transform: scale(1.2);
+}
+.boton-desistir:hover{
+ transform: scale(1.2);
+}
+
+.boton-juegon,.Guardar{
+    width: 198px;
+    height: 60px;
+    margin-left: 300px;
+    border-radius: 10px;
+    background: #0A3871;
+    cursor: pointer;
+}
+.boton-desistir,.Cancelar{
+    width: 198px;
+    height: 60px;
+    margin-left: 50px;
+    border-radius: 10px;
+    background:#E5E5E5;
+    cursor: pointer;
+}
+.botones-ingresapa{
+    display: inline-flex; 
+}
+#agregarPalabra{
+    display: none;
+}
+#Ing-palabra{
+    margin: 65px 180px 250px 300px ;
+    color: #0A3871;
+    background: #F3F5FC;
+    font-size: x-large;
+    border: none;
+    outline: none;
+}
+.advertencia{
+    margin-left: 300px;
+}
+.Guardar:hover{
+    transform: scale(1.2);
+}
+.Cancelar:hover{
+ transform: scale(1.2);
+}
